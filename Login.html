@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+            <style>
+                body{
+                margin: 0;
+                padding: 0;
+             background-image: url(data:image/jpeg;base64,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);
+                   }
+                   .login-container {
+            background-color: #1d12bb;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #b40f0f;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login_process.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+              </style>
+</head>
+<body>
+   <header>
+     <div class="container">
+        <nav>
+        <ul>
+            <li><a href="JOY WASAMBA WEBPAGE.html">Home Page</a></li>
+            <li><a href="ABOUT US.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="Login.html">Login</a></li>
+                  </ul>   
+        </nav>
+    </div>
+</header>
+   
+</body>
+</html>
